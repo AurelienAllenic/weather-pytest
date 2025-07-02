@@ -12,7 +12,7 @@ def get_weather_data(lat, lon, start_date, end_date):
     response.raise_for_status()
     return response.json()
 
-def save_data(data, filename="weather.json"):
+def save_data(data, filename="meteo.json"):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
