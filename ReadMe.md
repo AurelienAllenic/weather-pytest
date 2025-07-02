@@ -1,10 +1,10 @@
 # Analyse météo avec Open-Meteo
 
-# Description
+## Description
 
 Le but de cette application est de proposer une analyse en sur une durée d'une semaine du temps de Paris et d'écrire ces données en Json.
 
-# Test
+## Test
 
 Ce projet dispose d'un test présent dans test_main.py, exécutable via la commande
 
